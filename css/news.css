@@ -1,0 +1,269 @@
+.bread{
+    width: 1200px;
+    margin: 0 auto;
+    height: 110px;
+    padding-top: 65px;
+    font-family: 微软雅黑;
+    font-size: 18px;
+    color: #333;
+}
+.bread a{
+    color: #333;
+}
+.bread span,.bread strong{
+    cursor: pointer;
+}
+.bread span:first-child,.bread i{
+    cursor:default;
+}
+.bread i{
+    font-weight: bold;
+    color: #000;
+}
+.new-pic{
+    width: 100%;
+    height: 84px;
+    background: url("../img/3.png")center 2000px;
+    background-size:100% ;
+    position: relative;
+}
+.pic-top{
+    position: absolute;
+    top:0;
+    right:0;
+    width: 100%;
+    height: 84px;
+    background: #02adf0;
+    z-index: 10;
+    opacity: 0.6;
+    color: #fff;
+    font-size: 10px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 15px;
+}
+.news-title{
+    width: 100%;
+    height: 43px;
+    background: #1180CA;
+    line-height: 43px;
+    color: #fff;
+    font-size: 18px;
+    margin-top:18px;
+    padding:0  35px;
+}
+.news-state{
+    padding-right: 12px;
+    float: left;
+}
+.line-f{
+    width: 2px;
+    height: 12px;
+    margin-right: 3px;
+    float: left;
+    background: #fff;
+    margin-top: 17px;
+}
+.line-s{
+    width: 2px;
+    height: 18px;
+    float: left;
+    margin-top: 14px;
+    background: #fff;
+    margin-right: 3px;
+}
+.line{
+    width: 1030px;
+    float: right;
+    line-height: 36px;
+    overflow: hidden;
+}
+.news-con{
+    width: 100%;
+    height: 1418px;
+    background: #fff;
+    border: 1px solid #999;
+    border-top:0;
+    padding:0 34px;
+}
+.tit_item a{
+    color: #fff;
+}
+.news-item1{
+    width: 100%;
+    height: 408px;
+    padding:26px 0 44px 0;
+}
+.item-pic{
+    width: 166px;
+    height: 105px;
+    overflow: hidden;
+    float: left;
+    margin-right: 16px;
+}
+.item-pic img{
+    width: 166px;
+    height: 105px;
+}
+.item-text{
+    width: 948px;
+    height: 105px;
+    float: right;
+}
+.text-top{
+    width: 100%;
+    height: 44px;
+}
+.item-text h1{
+    width: 320px;
+    font-size: 18px;
+    color: #000;
+    padding: 5px 0 15px 0;
+    float: left;
+}
+.item-text a{
+    color: #000;
+}
+.item-text p{
+    width: 948px;
+    color: #989898;
+    font-size: 14px;
+}
+.n-time{
+    width: 100px;
+    height: 13px;
+    float: right;
+}
+.n-time img{
+    width: 13px;
+    height: 13px;
+    margin-right: 8px;
+    float: left;
+}
+.n-time .time{
+    line-height: 13px;
+    font-size: 12px;
+    color: #666;
+}
+.n-time span{
+    line-height: 13px;
+    font-size: 12px;
+    color: #000;
+}
+.text-con{
+    height: 210px;
+    width: 100%;
+    margin-top: 130px;
+}
+.news-x{
+    width: 100%;
+    height: 14px;
+    margin-bottom: 14px;
+}
+.icon{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #02ADF0;
+    float: left;
+    margin:3px 0;
+    margin-right: 25px;
+}
+.news-x p{
+    font-size: 14px;
+    line-height: 14px;
+    color: #666;
+    float: left;
+}
+.news-x .n-time p{
+    font-size: 13px;
+}
+.item-line{
+    width: 100%;
+    height: 1px;
+    background: #02ADF0;
+}
+.news-item{
+    width: 100%;
+    height: 295px;
+    padding:40px 0 45px 0;
+}
+.page{
+    width: 671px;
+    height: 34px;
+    margin:30px auto 70px ;
+    padding-top: 3px;
+}
+.btn{
+    width: 78px;
+    height: 28px;
+    border:1px solid #999;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 28px;
+    color: #666;
+    margin-right: 7px;
+    float: left;
+    cursor: pointer;
+}
+.btn1{
+    margin-right: 18px;
+}
+.btn2{
+    margin-right: 10px;
+}
+.first{
+    width: 28px;
+    height: 28px;
+    border: 1px solid #999;
+    border-radius: 50%;
+    float: left;
+    text-align: center;
+    line-height: 28px;
+    color: #666;
+    font-size: 12px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.go{
+    width: 28px;
+    height: 28px;
+    background: #999;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 28px;
+    float: left;
+    cursor: pointer;
+}
+.btn3{
+    margin-right: 20px;
+}
+.blue-line{
+    width: 1069px;
+    height: 9px;
+    background: #1180CA;
+    margin:0 auto;
+    margin-bottom: 103px;
+}
+/*.active{*/
+    /*width:34px;*/
+    /*height:34px;*/
+    /*border: 1px solid #999;*/
+    /*border-radius: 50%;*/
+    /*float: left;*/
+/*}*/
+.pic-title{
+    width: 135px;
+    height: 35px;
+    display: block;
+    margin:0 auto;
+}
+.pic-title img{
+    width: 135px;
+    height: 35px;
+    margin-top: 26px;
+    position: absolute;
+    z-index: 100;
+}
