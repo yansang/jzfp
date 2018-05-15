@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin:0;
+    list-style: none;
+    box-sizing: border-box;
+    font-style: normal;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.head{
+    background: #221815;
+    height: 50px;
+    width: 100%;
+}
+.head_content{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #e9e9e9;
+    line-height: 50px;
+}
+.head_content span{
+    cursor: pointer;
+}
+.body{
+    width: 1200px;
+    margin:0 auto;
+    background: #fff;
+    overflow: hidden;
+}
+.tit{
+    width: 100%;
+    height: 88px;
+    background: #1180ca;
+    font-family: 微软雅黑;
+}
+.tit_content{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.tit_item{
+    width: 173px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 88px;
+}
+.tit_item span{
+    cursor: pointer;
+}
+.tit_item_space{
+    width: 162px;
+    background: white;
+}
+.tit_item_space div{
+    width: 140px;
+    height: 44px;
+    background: #1180ca;
+    margin-top: 22px;
+}
+.tit_active{
+    width: 173px;
+    height: 88px;
+    background: #02adf0;
+    position: relative;
+    bottom:0;
+    left:0;
+}
+.tit_active_content{
+    width: 65px;
+    height: 4px;
+    position: absolute;
+    bottom:21px;
+    left:54px;
+}
+.tit_active_c{
+    width: 51px;
+    height: 4px;
+    background: #fff;
+    float: left;
+    border-radius: 2px;
+}
+.tit_active_co{
+    width: 4px;
+    height: 4px;
+    background: #fff;
+    float: left;
+    margin-left: 3px;
+    border-radius: 2px;
+}
+.tit_active_con{
+    width: 4px;
+    height: 4px;
+    background: #fff;
+    float: left;
+    margin-left: 3px;
+    border-radius: 2px;
+}
+.bread{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 63px;
+    font-family: 微软雅黑;
+    font-size: 18px;
+    color: #333;
+}
+.bread span,.bread strong{
+    cursor: pointer;
+}
+.bread span:first-child,.bread i{
+    cursor:default;
+}
+.footer{
+    width: 100%;
+    height: 235px;
+    background:#454041 url("../img/footer_06.png");
+}
+.footer_content{
+    width: 100%;
+    height: 235px;
+    padding-top: 100px;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    line-height: 22px;
+    color: white;
+    font-size: 12px;
+}
