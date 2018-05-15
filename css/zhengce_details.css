@@ -10,6 +10,9 @@
 .bread span,.bread strong{
     cursor: pointer;
 }
+.bread span a,.bread strong a{
+    color:#000;
+}
 .bread span:first-child,.bread i{
     cursor:default;
 }

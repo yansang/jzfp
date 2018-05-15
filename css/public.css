@@ -55,8 +55,8 @@ img{
     text-align: center;
     line-height: 88px;
 }
-.tit_item span{
-    cursor: pointer;
+.tit_item a{
+    color:#fff;
 }
 .tit_item_space{
     width: 162px;
@@ -116,6 +116,9 @@ img{
 }
 .bread span,.bread strong{
     cursor: pointer;
+}
+.bread span a,.bread strong a{
+    color:#000;
 }
 .bread span:first-child,.bread i{
     cursor:default;
